@@ -1,6 +1,6 @@
 # Calculator project using electron js combined with react js
 
-$[](calculator.png)
+![](calculator.png)
 
 # Getting Started with Create React App
 
