@@ -1,0 +1,50 @@
+.keypad {
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+.keypad button {
+  cursor: pointer;
+  font-size: large;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid #010101;
+}
+
+.clear {
+  color: rgb(200, 24, 24);
+  background-color: #171719;
+}
+.clear:hover {
+  background-color: rgba(23, 23, 25, 0.5019607843);
+}
+
+.numbers {
+  color: #f8c058;
+  background-color: #171719;
+}
+.numbers:hover {
+  background-color: rgba(23, 23, 25, 0.5019607843);
+}
+
+.symbols {
+  color: #a9a6c3;
+  background-color: #171719;
+}
+.symbols:hover {
+  background-color: rgba(23, 23, 25, 0.5019607843);
+}
+
+.equals {
+  color: #171719;
+  background-color: #a9a6c3;
+}
+.equals:hover {
+  background-color: rgba(169, 166, 195, 0.5019607843);
+}
+
+/*# sourceMappingURL=Keypad.module.css.map */

@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import Keypad from "./Components/Keypad";
+import Textfield from "./Components/Textfield";
+import classes from "./App.module.css";
 
 function App() {
+  const [symbol, setSymbol] = useState("");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.calculator}>
+      <Textfield value={symbol}/>
+      <Keypad updateTextField ={setSymbol}/>
     </div>
   );
 }

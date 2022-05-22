@@ -1,0 +1,44 @@
+.keypad{
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    row-gap: 5px;
+    column-gap: 5px;
+    button{
+        cursor: pointer;
+        font-size: large;
+        height: 50px;
+        border-radius: 30px;
+        border: 1px solid #010101;
+    }
+}
+.clear{
+    color: rgb(200, 24, 24);
+    background-color: #171719;
+    &:hover{
+        background-color: #17171980;
+    }
+}
+.numbers{
+    color: #f8c058;
+    background-color: #171719;
+    &:hover{
+        background-color: #17171980;
+    }
+}
+.symbols{
+    color: #a9a6c3;
+    background-color: #171719;
+    &:hover{
+        background-color: #17171980;
+    }
+}
+.equals{
+    color: #171719;
+    background-color: #a9a6c3;
+    &:hover{
+        background-color: #a9a6c380;
+    }
+}

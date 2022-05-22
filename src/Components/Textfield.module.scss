@@ -1,0 +1,22 @@
+.textField{
+    margin: 50px 0px;
+    height: 50px;
+    padding-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 1px solid #a9a6c3;
+    border-radius: 15px;
+    color: #f8c058;
+    background-color: #010101;
+}
+.blinker{
+    padding-bottom: 2px;
+    font-size: large;
+    animation: blinking 1.2s infinite;
+}
+@keyframes blinking{
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+
+}
