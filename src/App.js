@@ -5,6 +5,7 @@ import classes from "./App.module.css";
 
 function App() {
   const [symbol, setSymbol] = useState("");
+  
   return (
     <div className={classes.calculator}>
       <Textfield value={symbol}/>
